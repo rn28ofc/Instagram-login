@@ -45,8 +45,6 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 34rem;
-    
-    
 }
 
 .group {
@@ -55,12 +53,9 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 80%;
     padding: 1.3rem 0;
     border: 1px solid rgb(219, 219, 219) ;
-    
-
-    
 }
 
 .group:nth-child(1) {
@@ -70,6 +65,7 @@ body {
 .inta-logo {
     height: 3rem;
 }
+
 .profile-photo {
     display: flex;
     justify-content: center;
@@ -77,6 +73,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
+
 .profile-photo img {
     height: 6rem;
 }
@@ -88,6 +85,7 @@ body {
     border-radius: 4px;
     display: flex;
     flex-flow: nowrap;
+    min-width: 154px;
 }
 
 .insta-logout {
@@ -100,7 +98,8 @@ body {
 }
 
 .link-blue {
-    color: rgb(0, 149, 246);;
+    color: rgb(0, 149, 246);
+  
 }
 
 .get-the-app {
@@ -132,9 +131,8 @@ body {
 }
 
 .app-download:nth-child(2) {
-    background-image: url('imagens/play.png');
+    background-image: url('imagens/android.png');
 }
-
 
 
 /* media queries */
@@ -153,8 +151,6 @@ body {
     .insta-wrapper {
         width: 90%;
     }
-    
-    
 
     .insta-continue {
         width: 100%;
